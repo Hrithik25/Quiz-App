@@ -21,7 +21,7 @@ const Quiz = () => {
   const len = questionList?.length;
   const mode = useRecoilValue(modeAtom);
   const [userResponse, setUserResponse] = useState("");
-  const [isRightAnswer, setIsRightAnswer] = useState(false);
+  const [, setIsRightAnswer] = useState(false);
   const [buttonId, setButtonId] = useState(0);
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);

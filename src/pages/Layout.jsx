@@ -1,5 +1,4 @@
 import { Box, Button, Paper, Stack } from "@mui/material";
-import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
